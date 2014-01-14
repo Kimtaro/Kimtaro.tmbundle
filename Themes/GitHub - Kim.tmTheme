@@ -104,7 +104,7 @@
 			<key>name</key>
 			<string>Function (definition)</string>
 			<key>scope</key>
-			<string>keyword.control.def</string>
+			<string>keyword.control.def, keyword.other.rspec.behaviour, keyword.other.rspec.example</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
