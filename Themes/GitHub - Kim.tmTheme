@@ -675,6 +675,17 @@
 				<string>#000000</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>debug statements</string>
+			<key>scope</key>
+			<string>debug.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>1B5F24B5-F66A-45E2-8B92-EE033AD8A380</string>
