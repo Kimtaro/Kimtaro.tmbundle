@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
-	<array>
-		<string>src</string>
-	</array>
+	<array/>
 	<key>injectionSelector</key>
 	<string>source.ruby</string>
 	<key>name</key>
@@ -13,10 +11,16 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>debug.entity</string>
+				</dict>
+			</dict>
 			<key>match</key>
-			<string>((\bpp(\s+|\().*$)|\bputs.+?\.inspect\b)</string>
-			<key>name</key>
-			<string>debug.ruby</string>
+			<string>((\bpp(\s+|\().*$)|\bputs.+?(\.inspect|\*\d+)\b)</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

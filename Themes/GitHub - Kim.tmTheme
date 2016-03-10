@@ -690,7 +690,7 @@
 			<key>name</key>
 			<string>debug statements</string>
 			<key>scope</key>
-			<string>debug.ruby</string>
+			<string>debug.entity</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
